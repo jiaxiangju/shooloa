@@ -1,0 +1,20 @@
+﻿[
+	{ id: "userHome", text: "个人中心"},
+	{ id: "myTask", pid: "userHome", text: "我的待办", url: "../datagrid/celledit.html" },
+	{ id: "myApply", pid: "userHome", text: "我的申请", url: "../datagrid/rowedit.html" },
+	{ id: "myAttendance", pid: "userHome", text: "我的考勤统计", url: "../datagrid/datagrid.html" },
+	{ id: "myDiary", pid: "userHome", text: "我的工作日记", url: "../datagrid/datagrid.html" },
+	{ id: "myPassword", pid: "userHome", text: "修改密码", url: "../datagrid/datagrid.html" },
+		
+	{ id: "activities", text: "教研活动"},
+	{ id: "applyIng", pid: "activities", text: "正在申请", url: "../tree/detailgrid.html"  },
+	{ id: "createRecord", pid: "activities", text: "创建活动记录", url: "../buttonedit/selectGrid.html" },
+	{ id: "activitiesSearch", pid: "activities", text: "记录查询", url: "../buttonedit/selectGrit.html" },
+	
+	{id: "sysManage", text: "系统管理"},
+	{id: "user", pid: "sysManage", text: "用户管理", url: "jsp/sysManage/user/list_user.jsp"},
+    {id: "workflow", pid: "sysManage", text: "流程管理", url: "jsp/sysManage/workFlow/list_workFlow.jsp"},
+	{id: "notice", pid: "sysManage", text: "通知公告管理 ", url: "jsp/sysManage/notice/list_notice.jsp"},
+	{id: "role", pid: "sysManage", text: "角色管理", url: "jsp/sysManage/role/list_role.jsp"}
+	
+]
